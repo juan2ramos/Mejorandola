@@ -42,7 +42,6 @@ try{
     require_once APP_PATH . 'Acl.php';
     require_once APP_PATH . 'sql.php';
 
-
     Session::init();
     $config = Config::singleton();
     $request = new Request();
